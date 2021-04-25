@@ -15,9 +15,31 @@
       rel="stylesheet"
     />
     <title>Document</title>
+
+    <style>
+      *,
+      :root,
+      button {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      main {
+        border-top-left-radius: 2.3rem;
+        border-top-right-radius: 2.3rem;
+      }
+
+      .bola {
+        width: 5.625rem;
+        height: 5.625rem;
+        background-color: gray;
+        border-radius: 45%;
+        display: block;
+        overflow: hidden;
+      }
+    </style>
   </head>
-  <body>
-    <div class="w-screen h-screen bg-yellow-50 p-4">
+  <body class="m-auto h-screen flex flex-col bg-yellow-50 max-w-md">
+    <div class="w-full bg-yellow-50 p-4">
       <header class="w-full flex justify-between">
         <div class="flex items-center text-lg">
           <span
@@ -42,6 +64,65 @@
         </div>
       </header>
     </div>
+
+    <main class="bg-white rounded-t-3xl w-full shadow px-6 py-4">
+      <h1 class="mb-4">Sala do fulano</h1>
+      <div class="grid gap-4 grid-cols-3">
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+      </div>
+    </main>
+
+    <footer
+      class="fixed bottom-0 m-auto p-3 flex items-center justify-between sm:max-w-md w-full bg-white"
+    >
+      <button
+        class="rounded-full bg-gray-200 rounded-full py-1.5 px-4 flex items-center"
+      >
+        <span class="mt-0.5">✌🏼</span>
+        <span class="text-red-500 ml-2 text-sm"> Leave quietly </span>
+      </button>
+
+      <div>
+        <button class="p-1 rounded-full bg-gray-200 mr-3">
+          <span
+            class="iconify w-8 h-8"
+            data-icon="mdi:plus"
+            data-inline="false"
+          ></span>
+        </button>
+
+        <button class="p-1 rounded-full bg-gray-200">
+          <img
+            class="w-8 h-8"
+            src="../public/hand.raised.svg"
+            alt="hand raised"
+          />
+        </button>
+      </div>
+    </footer>
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </body>

@@ -1,9 +1,13 @@
-<h1 align="center">
-  Visual clone of Clubhouse
-  ### Rocketseat class
-</h1>
+<h1 align="center">Visual clone of Clubhouse</h1>
+<h2 align="center">Rocketseat class</h2>
 
-## Techs
+Only a test with TailwindCSS
+
+### Techs
 
 - HTML
 - TailwindCSS
+
+### Screenshot
+
+<img src="./public/clubhouse-clone.jpeg" alt="demo clubhouse">
